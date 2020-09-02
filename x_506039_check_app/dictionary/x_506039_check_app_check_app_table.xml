@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Check App Table" max_length="40" name="x_506039_check_app_check_app_table" sizeclass="8" type="collection">
+        <element label="Age" max_length="40" name="age" type="integer"/>
+        <element label="Collecting Institution" max_length="100" name="collecting_institution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Contact Number" mandatory="true" max_length="40" name="contact_number" type="string"/>
+        <element label="Date and Time Collected" mandatory="true" max_length="40" name="date_and_time_collected" type="glide_date_time"/>
+        <element label="Date and Time Processed" max_length="40" name="date_and_time_processed" type="glide_date_time"/>
+        <element label="Date and Time Released" max_length="40" name="date_and_time_released" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Birth" mandatory="true" max_length="40" name="date_birth" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Date of Birth" mandatory="true" max_length="40" name="date_of_birth" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" mandatory="true" max_length="40" name="email" type="string"/>
+        <element label="Interpretation" max_length="500" name="interpretation" type="string"/>
+        <element label="Laboratory Test Performed" max_length="500" name="laboratory_test_performed" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Record Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Patient Name" max_length="100" name="patient_name" type="string"/>
+        <element label="Remarks" max_length="500" name="remarks" type="string"/>
+        <element label="Sending Institution" max_length="100" name="sending_institution" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Sex" max_length="40" name="sex" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Female" value="2"/>
+                <element inactive_on_update="false" label="Male" value="1"/>
+            </choice>
+        </element>
+        <element label="Special Remarks" max_length="500" name="special_remarks" type="string"/>
+        <element label="Specimen Number" max_length="50" name="specimen_number" type="string"/>
+        <element label="Specimen Type" max_length="50" name="specimen_type" type="string"/>
+        <element label="Test Information" max_length="500" name="test_information" type="string"/>
+        <element choice="1" label="Test Result" max_length="500" name="test_result" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Negative" value="2"/>
+                <element inactive_on_update="false" label="Positive" value="1"/>
+            </choice>
+        </element>
+    </element>
+</database>

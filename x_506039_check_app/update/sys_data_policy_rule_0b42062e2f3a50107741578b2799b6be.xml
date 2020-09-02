@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>sex</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>nico.reyes</sys_created_by>
+        <sys_created_on>2020-08-26 03:56:21</sys_created_on>
+        <sys_data_policy display_value="Sets the Sex field to mandatory">c342062e2f3a50107741578b2799b6bb</sys_data_policy>
+        <sys_id>0b42062e2f3a50107741578b2799b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sex</sys_name>
+        <sys_package display_value="Check App" source="x_506039_check_app">54c186ea2f3a50107741578b2799b6d4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Check App">54c186ea2f3a50107741578b2799b6d4</sys_scope>
+        <sys_update_name>sys_data_policy_rule_0b42062e2f3a50107741578b2799b6be</sys_update_name>
+        <sys_updated_by>nico.reyes</sys_updated_by>
+        <sys_updated_on>2020-08-26 03:56:21</sys_updated_on>
+        <table>x_506039_check_app_check_app_table</table>
+    </sys_data_policy_rule>
+</record_update>

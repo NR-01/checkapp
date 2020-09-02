@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="Check App">6492862e2f3a50107741578b2799b65d</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_506039_check_app_check_app_table">date_and_time_processedISNOTEMPTY^test_result=2^EQ<item endquery="false" field="date_and_time_processed" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item display_value="Negative" endquery="false" field="test_result" goto="false" newquery="false" operator="=" or="false" value="2"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Negative Results</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_506039_check_app_check_app_table</name>
+        <order>800</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>elijah.manalansan</sys_created_by>
+        <sys_created_on>2020-08-27 05:55:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3e6e3f22fb690107741578b2799b6d8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Negative Results</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Check App" source="x_506039_check_app">54c186ea2f3a50107741578b2799b6d4</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Check App">54c186ea2f3a50107741578b2799b6d4</sys_scope>
+        <sys_update_name>sys_app_module_e3e6e3f22fb690107741578b2799b6d8</sys_update_name>
+        <sys_updated_by>elijah.manalansan</sys_updated_by>
+        <sys_updated_on>2020-08-27 06:59:15</sys_updated_on>
+        <timeline_page/>
+        <title>Negative Results</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>
